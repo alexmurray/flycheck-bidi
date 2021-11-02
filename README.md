@@ -10,12 +10,12 @@ Warn on presence of bidirectional Unicode control characters within source code 
 
 Emacs already has great Unicode bidirectional text handling, and in fact does a great job of correctly syntax highlighting code with bidi control characters - so in the example at [trojan-source/C/commenting-out.c](https://github.com/nickboucher/trojan-source/blob/be30965b7091c14bda65c1d82f582c8733779827/C/commenting-out.c) the trailing `if (isAdmin)` is correctly shown as part of the comment.
 
-[](https://raw.githubusercontent.com/alexmurray/flycheck-bidi/master/commenting-out.png)
+![](https://github.com/alexmurray/flycheck-bidi/raw/main/commenting-out.png)
 
 
 However to be extra careful, this extension will point them out so you don't miss them:
 
-[](https://raw.githubusercontent.com/alexmurray/flycheck-bidi/master/commenting-out-flycheck-bidi.png)
+![](https://github.com/alexmurray/flycheck-bidi/raw/main/commenting-out-flycheck-bidi.png)
 
 ## Installation
 
